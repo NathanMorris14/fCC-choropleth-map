@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+
+h2 {
+    padding: 15px;
+}
+
+#canvas {
+    min-width: 1000px;
+    min-height: 600px;
+    border-radius: 3px;
+    padding: 40px;
+}
+
+.county {
+    border: 2px solid black;
+}
+
+.county:hover {
+    fill: black;
+}
+
+#tooltip {
+    position: relative;
+    width: auto;
+    height: auto;
+    border-radius: 3px;
+    visibility: hidden;
+    
+}
+
+footer {
+    padding: 25px;
+    font-size: 0.6em;
+    text-decoration: none;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+#legend {
+    height: 210px;
+    width: auto;
+    padding: 15px;
+    border-radius: 3px;
+}
